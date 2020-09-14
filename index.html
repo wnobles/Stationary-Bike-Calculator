@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Fitness Assessment</title>
+  <meta name="description" content="Fitness Assessment">
+  <meta name="author" content="Will and Tim">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<script src="script.js"></script>
+	<h1>Stationary Bike Test</h1>
+	<div id="page1">
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name"><br>
+		<label for="weight">Weight:</label><br>
+		<input type="text" id="weight" name="weight"><br>
+		<label for="cals">Calories:</label><br>
+		<input type="text" id="cals" name="cals"><br>
+		<br>
+		<input onclick="getResult()" type="submit" value="Submit">
+	</div>
+	<div id="page2">
+		<div id="result"></div>
+		<div id="percentile"></div>
+	</div>
+</body>
+</html>
